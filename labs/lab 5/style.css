@@ -1,0 +1,14 @@
+h1 {
+  background-color: darkred;
+  text-decoration: underline;
+  text-align: center;
+}
+li {
+  color: red;
+}
+#greensubtitle {
+  color: green;
+}
+.bluesubtitle {
+  color: blue;
+}

@@ -9,6 +9,17 @@ h1{
   color: red;
 }
 #darkem{
-  background-color: darkred;
+  margin: 1px;
+  padding: 2px;
+  border: 2px solid blue;
+  text-decoration: underline;
+  background-color: lightblue;
+}
+#second_sub{
+  text-align: justify;
+  background-color: lightgrey;
+  margin:2px;
+  padding: 2px ;
+  border:2px double blue;
   text-decoration: underline;
 }

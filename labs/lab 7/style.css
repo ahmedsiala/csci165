@@ -1,0 +1,19 @@
+td,table{
+  border: 1px solid black;
+}
+/* this is to make the table look like a table
+table{
+  border-collapse: collapse;
+} */
+/* visited link */
+a:visited {
+  color: green;
+}
+/*hover the mouse */
+a:hover {
+  color: hotpink;
+}
+/* selected link */
+a:active {
+  color: blue;
+}

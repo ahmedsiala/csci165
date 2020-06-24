@@ -4,6 +4,10 @@
   color: white;
 
 }
+* {
+  box-sizing: border-box;
+
+}
 h1{
   margin: 0px;
 }
@@ -14,6 +18,7 @@ h1{
   color: white;
   float: right;
   height: 400px;
+  padding: 10px;
 }
 
 #nav{
@@ -21,7 +26,8 @@ background-color: DodgerBlue;
 color: white;
 width: 30%;
 float: left;
-height: 400px;}
+height: 400px;
+padding: 10px;}
 #nav ul{
   list-style-type: none;
   padding: 0px;

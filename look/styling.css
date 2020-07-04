@@ -1,25 +1,56 @@
 li {
   color: green;
 }
+#list1
+#list2{
+background-color: DodgerBlue;
+width: 30%;
+float: left;
+height: 400px;
+padding: 10px;}
+
+#list2 ol{
+  list-style-type: none;
+  padding: 0px;
+}
+
+#list{
+  width: 70%;
+  background-color: MediumSeaGreen;
+  float: right;
+  height: 400px;
+  padding: 10px;
+}
 h1{
   text-decoration: underline;
-  background-color: darkred;
 }
 .redem{
   color: red;
 }
 #darkem{
-  margin: 1px;
-  padding: 2px;
-  border: 2px solid blue;
+
   text-decoration: underline;
-  background-color: lightblue;
+  background-color:MediumSeaGreen ;
+  margin: 0px;
 }
 #second_sub{
-  text-align: justify;
-  background-color: lightgrey;
-  margin:2px;
-  padding: 2px ;
-  border:2px double blue;
+
+  background-color:DodgerBlue ;
+  margin:0px;
+
   text-decoration: underline;
 }
+#header{
+  background-color: mediumblue;
+  text-align: center;
+  color: white;
+
+}
+#header2{
+  background-color: mediumblue;
+  text-align: center;
+  color: white;
+
+}
+* {
+  box-sizing: border-box;

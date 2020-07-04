@@ -3,7 +3,7 @@ li {
 }
 #list1
 #list2{
-background-color: DodgerBlue;
+background-color: #6b5b95;
 width: 30%;
 float: left;
 height: 400px;
@@ -16,7 +16,7 @@ padding: 10px;}
 
 #list{
   width: 70%;
-  background-color: MediumSeaGreen;
+  background-color: #ff7b25;
   float: right;
   height: 400px;
   padding: 10px;
@@ -30,24 +30,24 @@ h1{
 #darkem{
 
   text-decoration: underline;
-  background-color:MediumSeaGreen ;
+  background-color:#ff7b25 ;
   margin: 0px;
 }
 #second_sub{
 
-  background-color:DodgerBlue ;
+  background-color:#6b5b95 ;
   margin:0px;
 
   text-decoration: underline;
 }
 #header{
-  background-color: mediumblue;
+  background-color: #d64161;
   text-align: center;
   color: white;
 
 }
 #header2{
-  background-color: mediumblue;
+  background-color: #d64161;
   text-align: center;
   color: white;
 

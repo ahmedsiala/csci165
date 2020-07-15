@@ -1,0 +1,71 @@
+<html>
+<head>
+  <style>
+    .inlineStyle{
+      Display:inline-block;
+      width: 200px;
+      padding: 10px;
+    }
+    .blockStyle{
+      Display:block;
+    }
+    .hidden{
+      Display:none;
+      /* we could use visibility: hidden; */
+    }
+    .inlineBlock{
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+    }
+    .inlineS{
+      display: inline;
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+    }
+    .blockS{
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+    }
+
+
+
+  </style>
+</head>
+<body>
+  Display a list of links as horizantal menu :
+  <ul>
+    <li class="inlineStyle"><a href="https://www.w3schools.com/html/default.asp/">HTML reference
+    </a>
+    </li>
+    <li class="inlineStyle"><a href="https://www.w3schools.com/css/default.asp/">CSS reference
+    </a>
+    </li>
+    <li class="inlineStyle"><a href="https://www.w3schools.com/js/default.asp/">JAVASCRIPT reference
+    </a>
+    </li>
+  </ul>
+  <p>2.Display a list of links as block elements : </p>
+  <ul>
+    <li class="blockStyle"><a href="https://www.w3schools.com/html/default.asp/">HTML reference
+    </a>
+    </li>
+    <li class="blockStyle"><a href="https://www.w3schools.com/css/default.asp/">CSS reference
+    </a>
+    </li>
+    <li class="blockStyle"><a href="https://www.w3schools.com/js/default.asp/">JAVASCRIPT reference
+    </a>
+    </li>
+  </ul>
+  <h1 class="hidden">random</h1>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Ut vel dui vitae felis <span class="inlineBlock">facilisis varius.</span> Suspendisse potenti. Curabitur eu consectetur elit, finibus volutpat odio. Integer dictum, quam at luctus luctus,
+  sem massa gravida dui, vel vestibulum <span class="inlineS">elit nibh id ex.</span> Nunc finibus nisl ac nisl pulvinar, id ultrices purus aliquam.
+  Fusce consequat dui vel leo bibendum, at ullamcorper massa <span class="blockS">viverra. Duis id dignissim mi,</span> ut blandit quam. Proin nec metus ac turpis efficitur tempor. Nunc sit amet posuere est. Praesent eget quam sed sapien blandit volutpat.
+
+</body>
+</html>

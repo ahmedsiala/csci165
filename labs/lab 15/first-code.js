@@ -53,12 +53,16 @@ hide = function() {
   //jQuery('#history').hide() similar
   jQuery('#history').attr('style', 'display : none');
 }
+clear = function(){
+  jQuery('#history').html("")
+}
 setup = function() {
-  jQuery('#add_button').click(add);
-  jQuery('#sub_button').click(sub);
-  jQuery('#mult_button').click(mult);
-  jQuery('#divi_button').click(divi);
+  jQuery('#add_button').mouseover(add);
+  jQuery('#sub_button').mouseover(sub);
+  jQuery('#mult_button').mouseover(mult);
+  jQuery('#divi_button').mouseover(divi);
   jQuery('#show_button').click(show);
   jQuery('#hide_button').click(hide);
+  jQuery('#clear_button').click(clear);
 }
 jQuery(document).ready(setup)
